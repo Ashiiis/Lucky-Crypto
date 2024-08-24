@@ -1,7 +1,6 @@
-/* AmountInput.css */
 
 .container {
-    background-color: #fffdd0; /* Creamy white background */
+    background-color: #fffdd0; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -37,7 +36,7 @@
   .start-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50; /* Green background */
+    background-color: #4CAF50;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -46,7 +45,7 @@
   }
   
   .start-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
   }
   
   .game-rules {
