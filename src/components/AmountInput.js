@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AmountInput.css'; // Import the CSS file
+import './AmountInput.css'; 
 
 function AmountInput({ onSubmitAmount }) {
     const [amount, setAmount] = useState('');
