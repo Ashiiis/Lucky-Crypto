@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CoinFlip.css'; // Import the CSS file
+import './CoinFlip.css'; 
 import CoinImage from './Coin.png'; 
 function CoinFlip({ amount, walletAddress }) {
   const [result, setResult] = useState(null);
@@ -36,7 +36,7 @@ function CoinFlip({ amount, walletAddress }) {
       </div>
       <div className="coin-section">
       <img
-          src={CoinImage} // Use the imported image
+          src={CoinImage} 
           alt="Coin"
           className="coin-image"
         />
