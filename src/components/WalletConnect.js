@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Web3 from 'web3';
-import metamaskLogo from './metamask.svg'; // Assuming you have a MetaMask image in your assets folder
-import './WalletConnect.css'; // Import the CSS file
+import metamaskLogo from './metamask.svg'; 
+import './WalletConnect.css'; 
 
 function WalletConnect({ onWalletConnected }) {
   const [walletAddress, setWalletAddress] = useState('');
@@ -41,7 +41,7 @@ function WalletConnect({ onWalletConnected }) {
         <div className="connected">
           <h1 className="heading">Connected</h1>
           <p className="address">Wallet Address: {walletAddress}</p>
-          {/* You can add additional functionality or buttons here */}
+          
         </div>
       )}
     </div>
