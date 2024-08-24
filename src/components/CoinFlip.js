@@ -51,11 +51,7 @@ function CoinFlip({ amount, walletAddress }) {
       </div>
       {result && (
         <div className="result">
-          <img
-            src={result.outcome === 'Heads' ? '/heads.png' : '/tails.png'}
-            alt={result.outcome}
-            className="result-image"
-          />
+          
           <h3>{result.outcome}! {result.win ? 'You Win!' : 'You Lose!'}</h3>
         </div>
       )}
